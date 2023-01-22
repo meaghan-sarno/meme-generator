@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="genmeme.css">
+    <title>Meme Generator</title>
+</head>
+<body>
+
+<div class="background-green">
+    <header class="h-container">
+        <div class="header-text">
+            <h1 class="text-info">Meme Generator</h1>
+        </div>
+</header>
+
+<section class="container"></section>
+<form id="memeForm">
+    <div>
+        <label for="picture-link">Image URL:</label>
+        <input id="uploaded-img-url" class="form-element" type="url" placeholder="Insert URL Here" />
+    </div>
+
+    <div>
+        <label for="top-text">Top Text:</label>
+        <input id="text-top" type="text" class="form-element" placeholder="Insert Top Text Here"> 
+    </div>
+
+    <div>
+        <label for="bottom-text">Bottom Text:</label>
+        <input id="text-bottom" type="text" class="form-element" placeholder="Insert Bottom Text Here">
+    </div>
+<br>
+    <div>
+        <input type="submit" id="btn" class="btn" value="Generate Meme!">
+    </div>
+
+</form>
+    <div class="line"></div>
+</section>
+
+</div>
+
+<section class="memeGallery">
+    <ul class="gallery">
+    </ul>
+
+</section>
+
+
+<script src="genmeme.js"></script>
+</body>
+</html>
